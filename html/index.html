@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Barbershop by dopet</title>
+</head>
+<body>
+    <div id="container" style="display: none;">
+        <div class="main-container">
+            <div class="main-screen" id="general-screen" style="display: block;">
+                <div class="header">
+                    <div class="head-bar">
+                        Friseursalon
+                    </div>
+                </div>
+                <div class="barber-image">
+                    <img class="main-img" id="general-img" src="assets/images/barber.png" alt="">
+                </div>
+                <button type="button" onclick="changeData();" class="main-btn">Holen Sie sich einen Haarschnitt ab</button>
+            </div>
+            <div class="shop-container" id="shop-container" style="display: none;">
+                <div class="male-box" id="male-box" style="display: none;">
+                    <div class="header">
+                        <div class="head-bar">
+                            Friseursalon
+                        </div>
+                    </div>
+                    <div class="beard-ct">
+                        
+                        <div class="beard-text">Bart</div>
+                        <div class="beardbox">
+                            <div class="minus-btn" id="minusBeard">&#8249</div>
+                            <div class="beard-count" id="beard-count"></div>
+                            <div class="plus-btn" id="plusBeard">&#8250</div>
+                        </div>
+                        
+                        <div class="beard-text" style="top: 95px">Bart Farbe</div>
+                        <div class="beardbox" style="top: 150px">
+                            <div class="minus-btn" id="minusBeardC">&#8249</div>
+                            <div class="beard-count" id="beard-countC"></div>
+                            <div class="plus-btn" id="plusBeardC">&#8250</div>
+                        </div>
+                        
+                        <div class="beard-text" style="top: 175px">Frisur</div>
+                        <div class="beardbox" style="top: 250px">
+                            <div class="minus-btn" id="minusHair">&#8249</div>
+                            <div class="beard-count" id="hair-count"></div>
+                            <div class="plus-btn" id="plusHair">&#8250</div>
+                        </div>
+                        
+                        <div class="beard-text" style="top: 250px">Frisur Farbe</div>
+                        <div class="beardbox" style="top: 345px">
+                            <div class="minus-btn" id="minusHairC">&#8249</div>
+                            <div class="beard-count" id="hair-countC"></div>
+                            <div class="plus-btn" id="plusHairC">&#8250</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricing-box">
+                    <div class="pricing">Sie zahlen:</div>
+                    <div id="price">0$</div>
+                </div>
+                <div class="checkout-box">
+                    <button type="submit" id="paymentBtn" class="pay-btn">Bezahlen</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="assets/js/config.js"></script>
+<script src="assets/js/app.js"></script>
+</html>

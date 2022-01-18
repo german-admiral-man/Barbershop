@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    font-family: 'Raleway', sans-serif;
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+}
+
+.main-container {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    background-color: rgba(0, 0, 0, 0.85);
+    width: 400px;
+    height: 600px;
+    border-radius: 35px;
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    background-color: #f98f08;
+    border-radius: 30px 30px 0 0;
+}
+
+.head-bar {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    background-color: white;
+    border-radius: 25px;
+    top: 42px;
+}
+
+.barber-image {
+    position: absolute;
+    text-align: center;
+    top: 22%;
+}
+
+.main-img {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.main-btn {
+    font-family: 'Raleway', sans-serif;
+    width: 250px;
+    height: 60px;
+    font-size: 21px;
+    color: white;
+    background-color: #f98f08;
+    border: none;
+    border-radius: 25px;
+    transition: 1s;
+    position: absolute;
+    top: 65%;
+    left: 19%;
+}
+
+.main-btn:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.close-text {
+    font-family: 'Raleway', sans-serif;
+    color: #646270;
+    font-size: 15px;
+    transition: 1s;
+    position: absolute;
+    top: 75%;
+    left: 29%;
+}
+
+.close-text:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.beard-ct {
+    position: absolute;
+    color: white;
+    top: 13%;
+}
+
+.beard-text {
+    position: relative;
+    left: 50px;
+    top: 20px;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    width: 300px;
+    text-align: center;
+}
+
+.beardbox {
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    background-color: #8e8e93;
+    border-radius: 25px;
+    left: 50px;
+    top: 50px;
+}
+
+.minus-btn {
+    position: relative;
+    border: none;
+    background: none;
+    font-size: 40px;
+    top: -8.2px;
+    left: 20px;
+    transition: 1s;
+    width: 15px;
+}
+
+.plus-btn {
+    position: relative;
+    border: none;
+    background: none;
+    font-size: 40px;
+    top: -55px;
+    left: 265px;
+    transition: 1s;
+    width: 15px;
+}
+
+.minus-btn:hover {
+    transition: 1s;
+    left: 21px;
+}
+.plus-btn:hover {
+    transition: 1s;
+    left: 266px;
+}
+
+.beard-count {
+    position: absolute;
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    top: 10px;
+    left: 43%;
+}
+
+.pricing-box {
+    position: absolute;
+    top: 80%;
+    left: 15%;
+}
+
+.pricing {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 16px;
+}
+
+#price {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: center;
+    color: #f98f08;
+    font-size: 15px;
+}
+
+.checkout-box {
+    position: absolute;
+    top: 80%;
+    left: 60%;
+}
+
+.pay-btn {
+    width: 130px;
+    font-size: 18px;
+    border-radius: 25px;
+    border: none;
+    color: snow;
+    background-color: #f98f08;
+    transition: 0.5s;
+}
+
+.pay-btn:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
